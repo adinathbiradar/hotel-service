@@ -1,0 +1,5 @@
+in\main\model\Hotel.class
+in\main\controller\HotelController.class
+in\main\repository\HotelRepository.class
+in\main\HotelBookingApplication.class
+in\main\service\HotelService.class
