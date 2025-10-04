@@ -24,6 +24,7 @@ import java.util.List;
 	    "https://hotelbookingbyadinath.netlify.app"
 	})
 @RequestMapping("/hotels")
+
 public class HotelController {
 
 	
