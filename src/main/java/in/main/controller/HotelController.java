@@ -64,5 +64,10 @@ public class HotelController {
 		}
 	}
 	
-	
+	// ✅ Bulk save hotels
+    @PostMapping("/bulk")
+    public ResponseEntity<List<Hotel>> createHotels(@RequestBody List<Hotel> hotels) {
+        List<Hotel> savedHotels = hotelService.saveAllHotels(hotels);
+        return ResponseEntity.ok(savedHotels);
+    }
 }

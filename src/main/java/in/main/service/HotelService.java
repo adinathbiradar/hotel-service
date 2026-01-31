@@ -47,5 +47,9 @@ public class HotelService {
         }).orElse(null); // return null if not found
     }
 	
+	public List<Hotel> saveAllHotels(List<Hotel> hotels) {
+        return repository.saveAll(hotels);
+    }
+	
 	 
 }
